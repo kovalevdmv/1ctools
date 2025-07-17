@@ -1,10 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<title> </title>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1C Tools - Внешние компоненты для 1С</title>
+    <meta name="description" content="Профессиональные внешние компоненты для 1С:Предприятие. RabbitMQ и Apache Kafka интеграции.">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <h1> Hello World </h1>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">1C Tools</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="rabbitmq.html">RabbitMQ</a></li>
+                <li><a href="kafka.html">Apache Kafka</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Мощные внешние компоненты для 1С:Предприятие</h1>
+                <p>Интегрируйте современные технологии обмена сообщениями в ваши решения 1С. Профессиональные компоненты для RabbitMQ и Apache Kafka.</p>
+                <a href="#components" class="cta-button">
+                    Посмотреть компоненты
+                    <span>→</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="components" class="container">
+            <h2 class="text-center mb-3">Наши компоненты</h2>
+            <div class="components-grid">
+                <!-- RabbitMQ Component -->
+                <div class="component-card">
+                    <div class="component-icon">🐰</div>
+                    <h3>RabbitMQ Connector</h3>
+                    <p>Полнофункциональная интеграция с RabbitMQ для надежного обмена сообщениями. Поддержка всех основных паттернов работы с очередями.</p>
+                    
+                    <ul class="features-list">
+                        <li>Отправка и получение сообщений</li>
+                        <li>Управление очередями и обменниками</li>
+                        <li>Поддержка RPC паттернов</li>
+                        <li>Обработка ошибок и переподключение</li>
+                        <li>SSL/TLS поддержка</li>
+                    </ul>
+
+                    <div class="price">
+                        15,000 <span class="price-currency">₽</span>
+                    </div>
+
+                    <div class="component-actions">
+                        <a href="rabbitmq.html" class="btn btn-primary">Подробнее</a>
+                        <a href="#" class="btn btn-outline">Демо версия</a>
+                    </div>
+                </div>
+
+                <!-- Apache Kafka Component -->
+                <div class="component-card">
+                    <div class="component-icon">⚡</div>
+                    <h3>Apache Kafka Connector</h3>
+                    <p>Высокопроизводительный коннектор для Apache Kafka. Идеальное решение для потоковой обработки данных и event-driven архитектуры.</p>
+                    
+                    <ul class="features-list">
+                        <li>Producer и Consumer API</li>
+                        <li>Batch обработка сообщений</li>
+                        <li>Управление топиками и партициями</li>
+                        <li>Контроль offset'ов</li>
+                        <li>Схемы сериализации данных</li>
+                    </ul>
+
+                    <div class="price">
+                        20,000 <span class="price-currency">₽</span>
+                    </div>
+
+                    <div class="component-actions">
+                        <a href="kafka.html" class="btn btn-primary">Подробнее</a>
+                        <a href="#" class="btn btn-outline">Демо версия</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container text-center" style="padding: 4rem 0;">
+            <h2>Почему выбирают наши компоненты?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <div style="padding: 2rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔧</div>
+                    <h3>Готовы к использованию</h3>
+                    <p>Установка за 5 минут. Подробная документация и примеры использования.</p>
+                </div>
+                <div style="padding: 2rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🛡️</div>
+                    <h3>Надежность</h3>
+                    <p>Протестированы в production среде. Обработка ошибок и автоматическое восстановление.</p>
+                </div>
+                <div style="padding: 2rem;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📞</div>
+                    <h3>Поддержка</h3>
+                    <p>Техническая поддержка и обновления. Помощь с интеграцией.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>1C Tools</h4>
+                    <p>Современные решения для интеграции 1С с внешними системами обмена сообщениями.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Продукты</h4>
+                    <p><a href="rabbitmq.html">RabbitMQ Connector</a></p>
+                    <p><a href="kafka.html">Apache Kafka Connector</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <p><a href="mailto:support@1ctools.ru">support@1ctools.ru</a></p>
+                    <p><a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Документы</h4>
+                    <p><a href="offer.html">Договор оферты</a></p>
+                    <p><a href="privacy.html">Политика конфиденциальности</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 1C Tools. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active class to current navigation item
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath.split('/').pop() || 
+                (currentPath.includes('index') && link.getAttribute('href') === 'index.html')) {
+                link.classList.add('active');
+            }
+        });
+    </script>
 </body>
 </html>

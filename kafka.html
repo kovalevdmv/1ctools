@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apache Kafka Connector - Внешняя компонента для 1С</title>
+    <meta name="description" content="Профессиональная интеграция 1С с Apache Kafka. Высокопроизводительный коннектор для потоковой обработки данных.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">1C Tools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="rabbitmq.html">RabbitMQ</a></li>
+                <li><a href="kafka.html" class="active">Apache Kafka</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="component-detail">
+            <div class="container">
+                <div class="detail-header">
+                    <div class="component-icon" style="margin: 0 auto;">⚡</div>
+                    <h1>Apache Kafka Connector</h1>
+                    <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto;">
+                        Высокопроизводительный коннектор для интеграции 1С:Предприятие с Apache Kafka
+                    </p>
+                </div>
+
+                <div class="detail-content">
+                    <div class="detail-info">
+                        <h3>Описание компоненты</h3>
+                        <p>
+                            Apache Kafka Connector — это профессиональная внешняя компонента для 1С:Предприятие, 
+                            предназначенная для высокопроизводительной интеграции с платформой потоковой обработки 
+                            данных Apache Kafka. Идеальное решение для event-driven архитектуры и real-time обработки данных.
+                        </p>
+
+                        <h3>Основные возможности</h3>
+                        <ul class="features-list">
+                            <li>Producer API для отправки сообщений в топики</li>
+                            <li>Consumer API для чтения сообщений из топиков</li>
+                            <li>Batch обработка сообщений для повышения производительности</li>
+                            <li>Управление топиками и партициями</li>
+                            <li>Контроль offset'ов и commit стратегий</li>
+                            <li>Consumer Groups для распределенной обработки</li>
+                            <li>Схемы сериализации (JSON, Avro, Protobuf)</li>
+                            <li>Idempotent Producer для exactly-once семантики</li>
+                            <li>Dead Letter Topics для обработки ошибок</li>
+                            <li>Метрики и мониторинг производительности</li>
+                        </ul>
+
+                        <div class="tech-specs">
+                            <h4>Технические характеристики</h4>
+                            <ul>
+                                <li><strong>Совместимость:</strong> 1С:Предприятие 8.3.10 и выше</li>
+                                <li><strong>Платформы:</strong> Windows x64, Linux x64</li>
+                                <li><strong>Apache Kafka:</strong> версии 2.8+ (включая Confluent)</li>
+                                <li><strong>Протоколы:</strong> Kafka Binary Protocol</li>
+                                <li><strong>Безопасность:</strong> SASL/PLAIN, SASL/SCRAM, SSL/TLS</li>
+                                <li><strong>Сериализация:</strong> JSON, Avro, Protobuf, Binary, String</li>
+                                <li><strong>Производительность:</strong> до 100,000 сообщений/сек</li>
+                            </ul>
+                        </div>
+
+                        <h3>Архитектурные паттерны</h3>
+                        <p>
+                            <strong>Event Sourcing:</strong> Сохранение всех изменений состояния как последовательность 
+                            событий для возможности воспроизведения и анализа.
+                        </p>
+                        <p>
+                            <strong>CQRS (Command Query Responsibility Segregation):</strong> Разделение операций 
+                            чтения и записи для оптимизации производительности.
+                        </p>
+                        <p>
+                            <strong>Stream Processing:</strong> Обработка потоков данных в реальном времени 
+                            для аналитики и мониторинга.
+                        </p>
+
+                        <h3>Примеры использования</h3>
+                        <p>
+                            <strong>Интеграция с Big Data:</strong> Передача данных из 1С в аналитические системы 
+                            (Elasticsearch, ClickHouse, Hadoop) для обработки больших объемов.
+                        </p>
+                        <p>
+                            <strong>Микросервисная архитектура:</strong> Обеспечение связности сервисов через 
+                            event-driven подход с гарантированной доставкой.
+                        </p>
+                        <p>
+                            <strong>Real-time аналитика:</strong> Потоковая передача данных для дашбордов, 
+                            мониторинга KPI и принятия оперативных решений.
+                        </p>
+
+                        <h3>Преимущества Apache Kafka</h3>
+                        <ul class="features-list">
+                            <li>Горизонтальное масштабирование</li>
+                            <li>Высокая отказоустойчивость</li>
+                            <li>Низкая задержка обработки</li>
+                            <li>Персистентное хранение сообщений</li>
+                            <li>Replay возможности</li>
+                        </ul>
+
+                        <div class="tech-specs">
+                            <h4>Что входит в поставку</h4>
+                            <ul>
+                                <li>Внешняя компонента (.dll/.so файлы)</li>
+                                <li>Подробная документация API</li>
+                                <li>Примеры Producer и Consumer</li>
+                                <li>Конфигурации для популярных сценариев</li>
+                                <li>Schema Registry интеграция</li>
+                                <li>Техническая поддержка (1 год)</li>
+                                <li>Обновления компоненты</li>
+                                <li>Monitoring утилиты</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="text-center">Apache Kafka Connector</h3>
+                        <div class="price text-center" style="margin: 2rem 0;">
+                            20,000 <span class="price-currency">₽</span>
+                        </div>
+                        
+                        <ul class="features-list" style="margin-bottom: 2rem;">
+                            <li>Бессрочная лицензия</li>
+                            <li>Producer & Consumer API</li>
+                            <li>Schema Registry поддержка</li>
+                            <li>Техподдержка 1 год</li>
+                            <li>Бесплатные обновления</li>
+                            <li>Monitoring утилиты</li>
+                        </ul>
+
+                        <div class="component-actions">
+                            <a href="#" class="btn btn-primary" onclick="buyComponent('kafka')">
+                                Купить компоненту
+                            </a>
+                            <a href="#" class="btn btn-secondary" onclick="downloadDemo('kafka')">
+                                Скачать демо
+                            </a>
+                            <a href="offer.html" class="btn btn-outline">
+                                Договор оферты
+                            </a>
+                        </div>
+
+                        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                            <h4 style="margin-bottom: 1rem;">Последняя версия</h4>
+                            <p style="margin-bottom: 0.5rem;"><strong>v3.2.1</strong></p>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                                Выпущена: 10.12.2024<br>
+                                Размер: 4.2 МБ
+                            </p>
+                            <a href="#" class="btn btn-outline" style="margin-top: 1rem; width: 100%;" onclick="downloadLatest('kafka')">
+                                Скачать v3.2.1
+                            </a>
+                        </div>
+
+                        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                            <h4 style="margin-bottom: 1rem;">Требования к производительности</h4>
+                            <div style="font-size: 0.9rem; color: var(--text-secondary);">
+                                <p style="margin-bottom: 0.5rem;">
+                                    <strong>CPU:</strong> 2+ ядра<br>
+                                    <strong>RAM:</strong> 4+ ГБ<br>
+                                    <strong>Network:</strong> 1 Гбит/с+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>1C Tools</h4>
+                    <p>Современные решения для интеграции 1С с внешними системами обмена сообщениями.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Продукты</h4>
+                    <p><a href="rabbitmq.html">RabbitMQ Connector</a></p>
+                    <p><a href="kafka.html">Apache Kafka Connector</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <p><a href="mailto:support@1ctools.ru">support@1ctools.ru</a></p>
+                    <p><a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Документы</h4>
+                    <p><a href="offer.html">Договор оферты</a></p>
+                    <p><a href="privacy.html">Политика конфиденциальности</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 1C Tools. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function buyComponent(component) {
+            // Здесь будет интеграция с платежной системой
+            alert('Переход к оплате компоненты ' + component.toUpperCase());
+        }
+
+        function downloadDemo(component) {
+            // Здесь будет ссылка на демо версию
+            alert('Скачивание демо версии ' + component.toUpperCase());
+        }
+
+        function downloadLatest(component) {
+            // Здесь будет ссылка на последнюю версию
+            alert('Скачивание последней версии ' + component.toUpperCase());
+        }
+
+        // Add active class to current navigation item
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath.split('/').pop()) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html> 
